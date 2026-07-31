@@ -1,0 +1,15 @@
+Are the cognitive benefits associated with musical training domain-specific or domain-general?
+
+Hypothesis:
+
+H₀ (Domain-General): Musical experience predicts all working memory domains similarly.
+H₁ (Domain-Specific): Musical experience is a substantially stronger predictor of Melody Span than of Digit Span or Spatial Span.
+
+| Library        | Purpose                                                                 |
+| -------------- | ----------------------------------------------------------------------- |
+| `pandas`       | Data manipulation                                                       |
+| `numpy`        | Numerical computations                                                  |
+| `matplotlib`   | Visualization                                                           |
+| `seaborn`      | Statistical visualization                                               |
+| `scikit-learn` | Machine learning                                                        |
+| `statsmodels`  | Statistical diagnostics (VIF, regression summaries, significance tests) |
