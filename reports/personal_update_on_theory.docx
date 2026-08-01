@@ -13,3 +13,11 @@ H₁ (Domain-Specific): Musical experience is a substantially stronger predictor
 | `seaborn`      | Statistical visualization                                               |
 | `scikit-learn` | Machine learning                                                        |
 | `statsmodels`  | Statistical diagnostics (VIF, regression summaries, significance tests) |
+
+Country and Sex were excluded from the final regression model because they did not directly contribute to the research objective and their inclusion did not meaningfully improve predictive performance. The resulting model achieved nearly identical predictive accuracy while providing substantially improved interpretability.
+
+| Memory Task      |      MAE |     RMSE |         R² | Interpretation                       |
+| ---------------- | -------: | -------: | ---------: | ------------------------------------ |
+| **Melody Span**  | **4.33** | **5.61** |  **0.248** | Moderate predictive performance      |
+| **Digit Span**   | **1.83** | **2.24** | **-0.006** | No meaningful predictive performance |
+| **Spatial Span** | **1.42** | **2.04** |  **0.026** | Very weak predictive performance     |
